@@ -11,7 +11,8 @@ local base06 = "#ffffff"
 local base09 = "#00DFFF"
 local base14 = "#fd2074"
 local base08 = "#00D96B"
-local base10 = "#ff5c00"
+local base10 = "#FFD900"
+base10 = "#CDFF00"
 local base12 = "#7e1cf0"
 local neonplasma = (((vim.o.background == "dark") and {base00 = base00, base01 = blend_hex(base00, base06, 0.03), base02 = blend_hex(base00, base06, 0.1), base03 = "#ECE15A", base04 = blend_hex(base00, base06, 0.82), base05 = blend_hex(base00, base06, 0.95), base06 = base06, base07 = "#00FFFB", base08 = blend_hex(base08, base09, 0.35), base09 = base09, base10 = base10, base11 = "#33b1ff", base12 = base12, base13 = base08, base14 = base14, base15 = "#36E4FF", blend = "#ffffff", none = "NONE"}) or {base00 = base06, base01 = blend_hex(base00, base06, 0.95), base02 = blend_hex(base00, base06, 0.82), base03 = base00, base04 = "#37474F", base05 = "#90A4AE", base06 = "#525252", base07 = "#08bdba", base08 = "#FF33B3", base09 = "#FD2074", base10 = "#FF6F00", base11 = "#0f62fe", base12 = "#673AB7", base13 = "#00D96B", base14 = "#7E1CF0", base15 = "#FFAB91", blend = "#FAFAFA", none = "NONE"})
 do end (vim.g)["terminal_color_0"] = neonplasma.base01
